@@ -1,0 +1,21 @@
+.cover__text {
+    position: absolute;
+    display: grid;
+    grid-template-columns: minmax(min-content, max-content);
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-self: center;
+    row-gap: 32px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 320px) {
+.cover__text {
+    row-gap: 16px;
+    }
+}
