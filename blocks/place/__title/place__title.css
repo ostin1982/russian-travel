@@ -8,9 +8,11 @@
     margin: 0;
 }
 
+
+ /* Сверил с макетом, все значения коректны */
 @media screen and (max-width: 768px) {
 .place__title {
-    font-size: calc((100vw - 321px)/(768 - 321)*(42 - 30) + 30px);
+    font-size: 42px;
     line-height: 110%;
     }
 }
@@ -29,5 +31,6 @@
     line-height: 109%;
     max-width: 288px;
     margin: 0 auto;
+    padding-left: 16px;
     }
 }

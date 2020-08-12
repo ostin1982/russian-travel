@@ -1,7 +1,7 @@
 .footer {
     padding: 92px 48px 24px;
     display: grid;
-    grid-template-columns: repeat(5, min-content) minmax(255px, 781px);
+    grid-template-columns: repeat(5, min-content) minmax(min-content, 781px);
     column-gap: 18px;
     justify-items: end;
     justify-content: end;

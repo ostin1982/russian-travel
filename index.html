@@ -6,7 +6,7 @@
     <title>Russian travel</title>
     <link rel="stylesheet" href="./pages/index.css">
 </head>
-<body>
+<body class="body">
     <div class="page">
         <header class="header">
             <img src="./image/header-logo.svg" alt="Логотип. Карта России." class="header__logo">
@@ -17,19 +17,20 @@
             <section class="lead">
                 <h1 class="lead__title">Путешествия по России</h1>
                 <p class="lead__subtitle">Настоящая страна не в выпусках новостей,&nbsp;а&nbsp;здесь.</p>
-                <img src="./image/lead-polka.jpg" alt="полка в плацкартном вагоне" class="lead__image">
+                <!-- Фото, которое было в архиве с фото отличалось от того, что в figma. Скачал, поставил новое, не меняя других настроек. Надеюсь теперь всё верно. -->
+                <img src="./image/lead-polka-figma.png" alt="полка в плацкартном вагоне" class="lead__image">
                 <p class="lead__caption">Ваша полка - верхняя</p>
             </section>
             <section class="intro">
                 <h2 class="intro__title">Чего мы там не видели?</h2>
                 <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
-                <p class="intro__list">
-                    Часовых поясов 11<br>
-                    Объектов природного наследия ЮНЕСКО 12<br>
-                    Объектов культурного наследия ЮНЕСКО 16<br>
-                    Природных заповедников 105<br>
-                    Аэропортов 241
-                </p>
+                <ul class="intro__list">
+                    <li><b>Часовых поясов</b> 11</li>
+                    <li><b>Объектов природного наследия ЮНЕСКО</b> 12</li>
+                    <li><b>Объектов культурного наследия ЮНЕСКО</b> 16</li>
+                    <li><b>Природных заповедников</b> 105</li>
+                    <li><b>Аэропортов</b> 241</li>
+                </ul>
             </section>
             <section class="photo-grid">
                 <img src="./image/photo-grid-train.jpg" alt="вид из окна поезда" class="photo-grid__item">
@@ -107,21 +108,21 @@
                 </div>
             </section>
             <section class="cover">
-                <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__overplay">
+                <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__overplay">                    
                     <div class="cover__text">
-                        <h2 class="cover__title">До Байкала &laquo;на собаках&raquo;</h2>
-                        <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
+                        <h2 class="cover__title">До Байкала &laquo;на&nbsp;собаках&raquo;</h2>
+                        <p class="cover__subtitle">По мотивам учебной темы о&nbsp;Транссибе&nbsp;и&nbsp;iframes — путешествие от&nbsp;столицы до Байкала на электричках.</p>
                     </div>
-                    <div class="cover__background"></div>
+                    <img src="./image/cover-trains-figma.png" alt="" class="cover__background">                 
                 </a>
             </section>
         </main>
         <footer class="footer">
-            <a href="https://yandex.ru/maps" target="_blank" class="footer__link">Карты</a>
-            <a href="https://yandex.ru/pogoda" target="_blank" class="footer__link">Погода</a>
-            <a href="https://rasp.yandex.ru" target="_blank" class="footer__link">Расписание</a>
-            <a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь</a>
-            <a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a>
+            <nav><a href="https://yandex.ru/maps" target="_blank" class="footer__link">Карты</a></nav>
+            <nav><a href="https://yandex.ru/pogoda" target="_blank" class="footer__link">Погода</a></nav>
+            <nav><a href="https://rasp.yandex.ru" target="_blank" class="footer__link">Расписание</a></nav>
+            <nav><a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь</a></nav>
+            <nav><a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a></nav>
             <p class="footer__copyright">&copy;&nbsp;2020. Денис Соколов</p>
         </footer>
     </div>    

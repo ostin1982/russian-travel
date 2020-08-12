@@ -3,24 +3,26 @@
     min-width: 320px;
     max-width: 100%;
     display: grid;
-    grid-template-columns: minmax(320px, 460px) minmax(min-content, max-content);
+    grid-template-columns: 460px minmax(min-content, 484px);
     column-gap: 40px;
     row-gap: 48px;
 }
 
 @media screen and (max-width: 1024px) {
 .place {
+    grid-template-columns: minmax(340px, 440px) minmax(min-content, 352px);
     column-gap: 32px;
     }
 }
 
 @media screen and (max-width: 768px) {
 .place {
+    grid-template-columns: 340px minmax(min-content, 456px);
     row-gap: 28px;
     }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 710px) {
 .place {
     min-width: 320px;
     max-width: 670px;
