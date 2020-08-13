@@ -1,4 +1,5 @@
 .cover__overplay {
+    display: block;
     width: 100%;
     text-decoration: none;
 }

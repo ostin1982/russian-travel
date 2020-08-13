@@ -1,0 +1,21 @@
+.footer__nav {
+    display: grid;
+    grid-template-columns: repeat(5, min-content) minmax(min-content, 781px);
+    column-gap: 18px;
+    justify-items: end;
+    justify-content: end;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  @media screen and (max-width: 680px) {
+    .footer__nav {
+        display: grid;
+        grid-template-columns: max-content;
+        grid-template-rows: repeat(6, max-content);
+        row-gap: 32px;
+        justify-items: start;
+        justify-content: start;
+        }
+    }
