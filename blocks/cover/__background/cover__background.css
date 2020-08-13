@@ -1,5 +1,10 @@
 .cover__background {
-    width: 100%;
-    margin: 0;
-}
+        max-width: 100%;
+        background-size: contain;
+        background-image: url(../../../image/cover-trains-figma.png);
+        background-repeat: no-repeat;
+        padding-bottom: 62.5%;  
+        margin: 0;
+        z-index: 1;
+      }
 

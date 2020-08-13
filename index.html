@@ -10,14 +10,13 @@
     <div class="page">
         <header class="header">
             <img src="./image/header-logo.svg" alt="Логотип. Карта России." class="header__logo">
-                <a href="#" class="header__lang-link">Ru</a>
-                <a href="#" class="header__lang-link">En</a>
+                <p class="header__lang-link">Ru</p>
+                <p class="header__lang-link">En</p>
         </header>
         <main class="content">
             <section class="lead">
                 <h1 class="lead__title">Путешествия по России</h1>
                 <p class="lead__subtitle">Настоящая страна не в выпусках новостей,&nbsp;а&nbsp;здесь.</p>
-                <!-- Фото, которое было в архиве с фото отличалось от того, что в figma. Скачал, поставил новое, не меняя других настроек. Надеюсь теперь всё верно. -->
                 <img src="./image/lead-polka-figma.png" alt="полка в плацкартном вагоне" class="lead__image">
                 <p class="lead__caption">Ваша полка - верхняя</p>
             </section>
@@ -48,6 +47,7 @@
             </section>
             <section class="places">
                 <div class="place">
+                    <!-- В Figma ошибка дизайнера, он добавил перенос на другую строку, если его убрать, то текст становится в одну линию. Что бы не нарушать дизайн блок пришлось сделать 330px, а не 340px -->
                     <h2 class="place__title">Куршская коса</h2>
                     <img src="./image/place-kosa.jpg" alt="Куршская коса" class="place__image">
                     <div class="place__website">
@@ -113,16 +113,16 @@
                         <h2 class="cover__title">До Байкала &laquo;на&nbsp;собаках&raquo;</h2>
                         <p class="cover__subtitle">По мотивам учебной темы о&nbsp;Транссибе&nbsp;и&nbsp;iframes — путешествие от&nbsp;столицы до Байкала на электричках.</p>
                     </div>
-                    <img src="./image/cover-trains-figma.png" alt="поезда на разъезеде" class="cover__background">                 
+                    <div class="cover__background"></div>                
                 </a>
             </section>
         </main>
         <footer class="footer">
-            <nav><a href="https://yandex.ru/maps" target="_blank" class="footer__link">Карты</a></nav>
-            <nav><a href="https://yandex.ru/pogoda" target="_blank" class="footer__link">Погода</a></nav>
-            <nav><a href="https://rasp.yandex.ru" target="_blank" class="footer__link">Расписание</a></nav>
-            <nav><a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь</a></nav>
-            <nav><a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a></nav>
+            <a href="https://yandex.ru/maps" target="_blank" class="footer__link">Карты</a>
+            <a href="https://yandex.ru/pogoda" target="_blank" class="footer__link">Погода</a>
+            <a href="https://rasp.yandex.ru" target="_blank" class="footer__link">Расписание</a>
+            <a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь</a>
+            <a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a>
             <p class="footer__copyright">&copy;&nbsp;2020. Денис Соколов</p>
         </footer>
     </div>    

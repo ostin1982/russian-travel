@@ -2,13 +2,14 @@
     display: grid;
     font-size: 24px;
     line-height: 133%;
-    text-decoration: none;
     color: #ffffff;
     align-items: end;
+    margin: 0;
+    text-decoration: underline;
 }
 
-.header__lang-link:hover {
-    text-decoration: underline;
+.header__lang-link:last-child {
+    text-decoration: none;
 }
 
 @media screen and (max-width: 320px) {
