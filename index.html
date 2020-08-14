@@ -10,8 +10,9 @@
     <div class="page">
         <header class="header">
             <img src="./image/header-logo.svg" alt="Логотип. Карта России." class="header__logo">
-                <p class="header__lang-link">Ru</p>
-                <p class="header__lang-link">En</p>
+                <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
+                <!-- Надеюсь, сейчас всё верно и по БЭМ всё правильно оформил -->
+                <a href="#" class="header__lang-link">En</a>
         </header>
         <main class="content">
             <section class="lead">
@@ -47,7 +48,6 @@
             </section>
             <section class="places">
                 <div class="place">
-                    <!-- В Figma ошибка дизайнера, он добавил перенос на другую строку, если его убрать, то текст становится в одну линию. Что бы не нарушать дизайн блок пришлось сделать 330px, а не 340px -->
                     <h2 class="place__title">Куршская коса</h2>
                     <img src="./image/place-kosa.jpg" alt="Куршская коса" class="place__image">
                     <div class="place__website">

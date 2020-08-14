@@ -5,10 +5,6 @@
     color: #ffffff;
     align-items: end;
     margin: 0;
-    text-decoration: underline;
-}
-
-.header__lang-link:last-child {
     text-decoration: none;
 }
 
